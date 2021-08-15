@@ -1,0 +1,43 @@
+body{
+    color:white;
+    margin : 0px;
+    padding :0px;
+    background: url(gym_pic2.jfif);
+}
+.left{
+    border: 2px solid red;
+    display: inline-block;
+    position :absolute;
+    top: 20px;
+    left: 34px;
+}
+.mid{
+    display: block;
+    border: 2px solid blue;
+    width : 33%;
+    margin: 20px auto ;
+    
+
+}
+.right{
+    border: 2px solid green;
+    top: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+}
+.navbar{
+    display: flex;
+    font-size: 10px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding : 5px;
+    size: 5px;
+}
+.navbar li a:hover , .navbar li a.active {
+    text-decoration: underline;
+    color: aqua;
+    
+}:
